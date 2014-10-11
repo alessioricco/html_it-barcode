@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container" layout = "vertical">
+		<View id="overlay" backgroundColor="trasparent" layout = "vertical">
+		
+		<Label top="100" id="label" onClick="doClick">SCAN</Label>
+		
+		<Label top="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE" id="scanResult" ></Label>
+		<Label top="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE" id="scanContentType" ></Label>
+		<Label top="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE" id="scanParsed" ></Label>
+
+		</View>
+	</Window>
+</Alloy>
